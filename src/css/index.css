@@ -1,3 +1,11 @@
 body{
-    background-color: red;
+    background-color: brown;
+    color:yellow;
+}
+a{
+    color:white;
+
+    &:hover {
+    color:red;
+    }
 }

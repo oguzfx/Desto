@@ -8,5 +8,10 @@
     "build": "parcel build src/index.html"
   },
   "author": "oguzfx",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap": "^5.0.0-beta3",
+    "postcss-preset-env": "^6.7.0",
+    "sass": "^1.32.8"
+  }
 }

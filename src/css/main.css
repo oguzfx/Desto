@@ -1,3 +1,4 @@
 /*Bu klasörde bulunan dosyalar eklenir*/
 
+@import '/sass/bootstrap.scss';
 @import './index.css';

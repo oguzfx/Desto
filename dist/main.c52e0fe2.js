@@ -184,7 +184,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../bin/nodejs/node-v14.15.3-win-x64/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/index.css":[function(require,module,exports) {
+},{"./bundle-url":"../../../bin/nodejs/node-v14.15.3-win-x64/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"sass/bootstrap.scss":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../../../bin/nodejs/node-v14.15.3-win-x64/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/index.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -194,7 +199,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./index.css":"css/index.css","_css_loader":"../../../bin/nodejs/node-v14.15.3-win-x64/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../bin/nodejs/node-v14.15.3-win-x64/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"/sass/bootstrap.scss":"sass/bootstrap.scss","./index.css":"css/index.css","_css_loader":"../../../bin/nodejs/node-v14.15.3-win-x64/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../bin/nodejs/node-v14.15.3-win-x64/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -222,7 +227,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56308" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56765" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
