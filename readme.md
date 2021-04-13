@@ -1,4 +1,4 @@
-## DESTOMEDYA GELİŞTİRME
+## GELİŞTİRME
 
 - Nodejs yüklü olmalıdır. [YÜKLE](https://nodejs.org/en/download/)
 - Komut satırına `npm install -g parcel-bundler` 
