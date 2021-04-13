@@ -2,7 +2,7 @@ body{
     background-color: brown;
     color:yellow;
 }
-a{
+a{ /*post css yazılabiliyor*/
     color:white;
 
     &:hover {
