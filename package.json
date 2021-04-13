@@ -2,10 +2,10 @@
   "name": "destomedya",
   "version": "1.0.0",
   "description": "parcel kullanarak gelistirme yapmak",
-  "main": "index.js",
+  "main": "src/index.html",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/*.html"
+    "build": "parcel build src/index.html"
   },
   "author": "oguzfx",
   "license": "MIT",
