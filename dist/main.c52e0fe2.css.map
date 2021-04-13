@@ -1,0 +1,1 @@
+{"version":3,"sources":["css/index.css","main.css"],"names":[],"mappings":"AAAA;AACA;AACA;ACFA,uCAAuC","file":"main.c52e0fe2.css","sourceRoot":"..\\src","sourcesContent":["body{\r\n    background-color: red;\r\n}","/*Bu klasörde bulunan dosyalar eklenir*/\r\n\r\n@import './index.css';"]}
